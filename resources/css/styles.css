@@ -356,6 +356,7 @@ input[type=checkbox] {
 footer {
     background-color: #333;
     padding: 50px;
+    font-size: 80%;
 }
 
 .footer-nav {
@@ -397,8 +398,18 @@ footer {
 
 .social-links li a:link,
 .social-links li a:visited {
-    font-size: 180%;
+    font-size: 160%;
 }
+
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    transition: color 0.2s;
+}
+
+
 
 .ion-social-facebook:hover {
     color: #3b5998;
@@ -423,11 +434,6 @@ footer p {
     font-size: 90%;
     margin-top: 30px;
 }
-
-
-
-
-
 
 
 
