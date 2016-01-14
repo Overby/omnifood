@@ -12,4 +12,11 @@
     });
      
      
+     
+     /*Scroll on buttons */
+    $('.js--scroll-to-plans').click(function() {
+       $('html, body').animate({scrollTop: $()}) 
+    });
+     
+     
 });
