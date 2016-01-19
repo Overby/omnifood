@@ -62,5 +62,10 @@
          offset: '500'
      });
      
+/* Mobile nav */
+     $('.js--nav-icon').click(function() {
+       var nav = $('.js--main-nav')  
+     });
+     
      
 });
